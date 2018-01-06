@@ -20,7 +20,7 @@ Release:    1
 Group:      Qt/Qt
 License:    GPLv2+ and dictionaries under cc by-sa 3.0
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  harbour-sidudict.yaml
+#Source100:  harbour-sidudict.yaml
 Requires:   mapplauncherd-booster-silica-qt5
 Requires:   sailfishsilica-qt5
 Requires:   qt5-qtdeclarative-import-xmllistmodel
@@ -28,6 +28,7 @@ Requires:   libsailfishapp
 BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Core)
+BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:  pkgconfig(qdeclarative5-boostable)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(sailfishapp)
